@@ -1,6 +1,5 @@
 body {
-  background: #fff;
-  font-family: "Delius", cursive;
+  background: black;
 }
 #root {
   padding: 40px;
@@ -12,20 +11,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
-  margin-bottom: -15px;
 }
 #root .playground .card {
   width: 15%;
-  user-select: none;
   height: 110px;
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
   margin-bottom: 15px;
+  /* flipping time */
   transition: 0.6s;
   transform-style: preserve-3d;
-  position: relative;
 }
 #root .playground .card div {
   backface-visibility: hidden;
